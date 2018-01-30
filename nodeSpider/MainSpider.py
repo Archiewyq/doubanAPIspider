@@ -72,6 +72,7 @@ class SpiderWork(object):
 
                     data = task.split('$$')
                     id_ = data[0]
+                    # 书名不规则，所以需要清洗
                     word = data[1].split('-')[0].split('：')[0].split('@')[0]
                     word = re.sub(pattern1, '', word)
                     word = re.sub(pattern2, '', word)
