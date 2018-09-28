@@ -1,2 +1,2 @@
-# Crawl doubanbooks with api
-proxy and bookname fetch from MySQL
+# Crawl douban-books with api
+proxy and bookname fetched from MySQL
